@@ -34,9 +34,9 @@ public class SecondActivity extends AppCompatActivity {
         backBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent retuenIntent = getIntent();
-                retuenIntent.putExtra("returnData","From second");
-                setResult(RESULT_OK,retuenIntent);
+                Intent returnIntent = getIntent();
+                returnIntent.putExtra("returnData","From second");
+                setResult(RESULT_OK,returnIntent);
                 finish();
             }
         });

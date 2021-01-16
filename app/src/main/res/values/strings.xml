@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Activity</string>
+    <string name="app_name">Pet Bio</string>
     <string name="btn">Button</string>
     <string name="second">Second Activity</string>
     <string name="goBack">goBack</string>
